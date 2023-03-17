@@ -1,0 +1,19 @@
+<vbox style="padding: 5px;">
+    <dropdown id="testDropdown">
+        <data>
+            <item text="Item #1" />
+            <item text="Item #2" />
+            <item text="Item #3" />
+            <item text="Item #4" />
+            <item text="Item #5" />
+        </data>
+    </dropdown>
+    <hbox>
+        <button id="indexButton" text="selectedIndex = 0" />
+        <button id="replaceButton" text="replace dataSource" />
+    </hbox>
+    <hbox>
+        <label text="Selected index:" />    
+        <label id="indexLabel" />
+    </hbox>
+</vbox>
