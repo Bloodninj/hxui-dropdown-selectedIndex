@@ -21,6 +21,7 @@ class MainView extends VBox {
         testDropdown.selectedIndex = 0;
     }
 
+    @:bind(replaceButton, MouseEvent.CLICK)
     private function replaceButton_onClick(e:haxe.ui.events.UIEvent) {
         var newSource = new DataSource();
         newSource.add("New item #1");
